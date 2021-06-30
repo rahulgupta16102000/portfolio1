@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar" id="navbar1" data-aos="fade-down" data-aos-offset="120" data-aos-duration="1400">
+        <div class="brand">RG</div>
+        <a class="toggle-button" href="#">
+            <span id="bar1" class="bar"></span>
+            <span id="bar2" class="bar"></span>
+            <span id="bar3" class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li class="abme"><a href="#about"> About Me</a> </li>
+                <li class="exr"><a href="#Experience">Experience</a> </li>
+                <li class="skl"><a href="#sk">Skills</a> </li>
+                <li class="wwt"><a href="#prodiv">Work With</a> </li>
+            </ul>
+        </div>
+
+    </nav>
+    <div class="projdiv" id="prodiv">
+         
+        <h1>Project-4</h1>
+        <div class="main_proj" data-aos="fade-up">
+            <a href="" class="img_a">
+                <img class="proj_img" src="Screenshot (17).png" alt="">
+            </a>
+            <div class="portfolio_div">
+                <h1>Coffee Cafe</h1>
+                <p>Find the best place to hang out with
+                    friends. Visit Café Coffee Day and
+                    enjoy hot coffees, cold coffees, snacks
+                    and more.</p>
+                <a href="https://rahulgupta16102000.github.io/coffee-shop/" class="main1">
+                    <i class="fa fa-4x fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+        <h1>Project-5 </h1>
+        <div class="main_proj" data-aos="fade-up">
+            <a href="" class="img_a">
+                <img class="proj_img" src="Screenshot (18).png" alt="">
+            </a>
+            <div class="portfolio_div">
+                <h1> job-consultancy</h1>
+                <p>We are a leading job consultancy company in India, offering best solutions to make your hiring easy and affordable. We offer best recruitment services.</p>
+                <a href= "https://rahulgupta16102000.github.io/job-consultancy/" class="main1">
+                    <i class="fa fa-4x fa-github" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200
+        });
+    </script>
+    <script src="particles.js"></script>
+    <script src="app.js"></script>
+    <!-- <script src="anime.js"></script> -->
+    <!-- <script src="anime.min.js"></script> -->
+    <!-- <script>
+        const container = document.querySelector('.container')
+        for(var i=0;i<100;i++){
+            const blocks = document.createElement('div')
+            blocks.classList.add('block')
+            container.appendChild(blocks);
+        }
+        function animateBlocks(){
+            anime({
+                targets:'.block',
+                translateX:function(){
+                    return anime.random(0,1100);
+                },
+                translateY:function(){
+                    return anime.random(-200,200);
+                },
+                scale:function(){
+                    return anime.random(1,5);
+                },
+                 easing:'linear',
+                 duration:3000,
+                 delay:anime.stagger(10),
+                 complete:animateBlocks,
+                
+            })
+        }
+        animateBlocks()
+    </script> -->
+    <!-- <script src="app (2).js"></script> -->
+    <script>
+        const togglebutton = document.getElementsByClassName('toggle-button')[0];
+        const navbarlinks = document.getElementsByClassName('navbar-links')[0];
+        togglebutton.addEventListener('click', () => {
+            navbarlinks.classList.toggle('active');
+            togglebutton.classList.toggle('chang');
+        });
+    </script>
+</body>
+</html>
