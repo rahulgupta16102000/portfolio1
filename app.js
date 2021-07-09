@@ -16,20 +16,20 @@ particlesJS('snow_fall',
   {
     "particles": {
       "number": {
-        "value": 50,
+        "value": 200,
         "density": {
           "enable": true,
           "value_area":700
         }
       },
       "color": {
-        "value": "#fff"
+        "value": "#061936"
       },
       "shape": {
-        "type": "circle",
+        "type": "edge",
         "stroke": {
-          "width": 0,
-          "color": "#000000"
+          "width": 1,
+          "color": "#061122"
         },
         "polygon": {
           "nb_sides": 5
@@ -42,26 +42,26 @@ particlesJS('snow_fall',
       },
       "opacity": {
         "value": 0.5,
-        "random": false,
+        "random": true,
         "anim": {
-          "enable": false,
+          "enable": true,
           "speed": 1,
           "opacity_min": 0.1,
           "sync": false
         }
       },
       "size": {
-        "value": 5,
+        "value": 32,
         "random": true,
         "anim": {
-          "enable": false,
-          "speed": 40,
+          "enable": true,
+          "speed": 10,
           "size_min": 0.1,
           "sync": false
         }
       },
       "line_linked": {
-        "enable": true,
+        "enable": false,
         "distance": 150,
         "color": "#ffffff",
         "opacity": 0.4,
@@ -69,7 +69,7 @@ particlesJS('snow_fall',
       },
       "move": {
         "enable": true,
-        "speed": 6,
+        "speed": 1.6,
         "direction": "none",
         "random": false,
         "straight": false,
