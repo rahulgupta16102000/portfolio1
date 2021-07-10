@@ -90,7 +90,7 @@ particlesJS('snow_fall',
         },
         "onclick": {
           "enable": true,
-          "mode": "none"
+          "mode": "push"
         },
         "resize": true
       },
